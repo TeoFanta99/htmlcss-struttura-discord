@@ -5,14 +5,52 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
 /* stili header */
+header {
+    display: flex;
+}
 
+#top-header {
+    height: 50px;
+    background-color: rgb(56, 189, 189);
+    width: 100%;
+    display: flex;
+}
 
+#box-top-header {
+    height: 40px;
+    margin: 5px auto;
+    background-color: orange;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
 
+#logo-discord {
+    width: 20%;
+}
 
+#link-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button,#login-button {
+    width: 20%;
+}
+
+a {
+    margin-left: 10px;
+}
 
 
 /* stili main */
