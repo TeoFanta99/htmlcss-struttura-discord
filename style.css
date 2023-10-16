@@ -25,7 +25,7 @@ header {
     height: 40px;
     margin: 5px auto;
     background-color: orange;
-    width: 60%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
@@ -103,11 +103,13 @@ main {
 .big-section {
     width: 70%;
     background-color: blue;
+    display: flex;
 }
 
 .small-section {
     width: 30%;
     background-color: pink;
+    display: flex;
 }
 
 #change-order {
@@ -121,9 +123,70 @@ main {
     height: 500px;
 }
 
+
+
+
 /* ------------------------- stili footer ------------------------- */
+footer {
+    display: flex;
+    flex-direction: column;
+}
 
+#top-footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(43, 43, 58);
+    display: flex;
+    border-bottom: 1px solid white;
+}
 
+#footer-big-section {
+    display: flex;
+    width: 70%;
+    margin: 25px auto;
+    border: 1px solid white;
+}
 
+#footer-social-section {
+    display: flex;
+    width: 40%;
+    background-color: rgb(255, 156, 173);
+}
 
+.footer-link-column {
+    display: flex;
+    width: 15%;
+    background-color: rgb(92, 215, 222);
+    border: 1px solid white;
+}
 
+#low-footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(43, 43, 58);
+    min-height: 80px;
+}
+
+#low-footer-container {
+    width: 70%;
+    background-color: rgb(159, 255, 255);
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#low-footer-button {
+    display: flex;
+}
+
+#registrati-button {
+    background-color: #8EA1E1;
+    border: 0px;
+    margin: 15px;
+    padding: 0 9px;
+    border-radius: 50px;
+    color: white;
+}
